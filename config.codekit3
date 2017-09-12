@@ -21,18 +21,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/login.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/login.html",
-		"oF": 0
-		},
-	"\/register.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/register.html",
-		"oF": 0
-		},
 	"\/style\/.sass-lint.yml": {
 		"ft": 8192,
 		"oA": 2,
