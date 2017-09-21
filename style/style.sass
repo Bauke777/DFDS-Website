@@ -1,2 +1,213 @@
+// Fonts
+@import '../fonts/fonts.css'
+
+// Icons
+@import '../icons/icons'
+
+// Colors
+$white: #fff
+$light-gray: #eaedee
+$gray: #6d6f71
+$dark-gray: rgb(60, 60, 60)
+$black: rgb(0, 0, 0)
+
+$blue: rgb(0, 80, 132)
+$dark-blue: rgb(0, 42, 69)
+
+$orange: rgb(246, 134, 31)
+$dark-orange: rgb(225, 120, 25)
+
+//Transparants
+$semi-transparant: rgba(0, 0, 0, .2)
+
+// General style
+*
+   margin: 0
+   padding: 0
+   box-sizing: border-box
+
 body
-   padding: 100px
+   background-color: $light-gray
+   font: 1em / 1.5em 'Open Sans', sans-serif
+   font-style: normal
+   font-weight: 300
+
+a
+   color: $dark-blue
+   text-decoration: none
+   font-weight: 600
+
+h1,
+h2,
+h3
+   font-family: 'DFDS bold'
+   color: $blue
+
+h4,
+h5,
+h6
+   font-family: 'DFDS light'
+   color: $blue
+   text-transform: uppercase
+
+// Header styling
+header
+   background-color: $white
+   text-align: center
+
+   img
+      margin: 1.5em 2em
+
+   // Toolbar menu
+   ul
+      position: absolute
+      right: 2em
+      top: 1.6em
+
+      li
+         display: inline-block
+         padding: 1em
+
+         i
+            margin-right: .2em
+
+   // Navigation & Filters
+   nav
+      border-top: calc(1em/16) solid $light-gray
+      padding: 1.5em 2em
+      position: relative
+
+// Main styling
+main
+   display: flex
+   flex-direction: row
+   flex-wrap: wrap
+   justify-content: space-between
+   margin: auto
+   padding: 1em 0
+   width: 80vw
+
+article
+   background-color: $white
+   filter: drop-shadow(.0625em .0625em .0625em $semi-transparant)
+   width: 23%
+   overflow: hidden
+   position: relative
+   margin: 1em 0
+
+   img
+      object-fit: cover
+      width: 100%
+      height: 10em
+
+   h1
+
+      &:first-of-type
+         padding: 1rem 1rem .2rem
+
+   p
+      padding: 0 1rem
+
+   footer
+      margin: 1rem
+      font-size: .7rem
+      text-transform: uppercase
+      font-family: 'DFDS Light'
+      color: $blue
+
+// Forms
+form
+   filter: drop-shadow(.125em .125em .125em $semi-transparant)
+   background-color: $white
+   width: 50%
+   margin: 3em auto
+   padding: 1em
+   color: $gray
+
+   h1
+      padding: 0 0 .75em
+
+   input
+
+      &[type='text'],
+      &[type='password'],
+      &[type='username'],
+      &[type='date']
+         width: 100%
+         height: 2.8125em
+
+   button
+      width: 100%
+
+// Inputs & Labels
+input
+   display: inline-block
+   border: solid .0625em $gray
+   font: 1em 'Open Sans'
+   font-weight: 300
+   padding: .75em .5em
+   border-radius: .375em
+   margin-bottom: 1em
+   letter-spacing: .075em
+   color: $gray
+
+button
+   font: 1em 'DFDS bold'
+   text-transform: uppercase
+   padding: .75em .5em
+   border-radius: .375em
+   border: 0
+   letter-spacing: .075em
+   cursor: pointer
+
+   &[type='button'],
+   &[type='submit']
+      color: $white
+      background: $orange
+      margin-bottom: 1em
+
+      &:hover
+         background: $dark-orange
+
+label
+   font: .75em / 150% 'DFDS light'
+   color: $gray
+
+fieldset
+   padding: .2em .5em
+   border-radius: .375em
+   border: solid .0625em $gray
+   margin-bottom: 1.5em
+
+legend
+   color: $dark-gray
+   font: .875em / 150% 'DFDS bold'
+   text-transform: uppercase
+   padding: 0 .5em
+
+
+// Media queries
+
+// Tablet
+@media only screen and (max-width: 75em)
+   article
+      width: 30%
+
+// Tablet
+@media only screen and (max-width: 60em)
+   article
+      width: 46%
+
+// Mobile
+@media only screen and (max-width: 30em)
+   header
+      img
+         margin: .5em 1em
+         height: 2em
+
+      ul
+         right: 0
+         top: 0
+
+   article
+      width: 100%

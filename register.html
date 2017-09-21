@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DFDS Website</title>
 
@@ -12,7 +12,28 @@
 </head>
 <body>
 
-  <form action="login.php">
+  <header>
+
+    <a href="index.html"><img src="images/dfdslogo.jpg" alt="DFDS logo" /></a>
+
+    <ul>
+      <li>
+        <a href="login.html"><i class="fa fa-lock" aria-hidden="true"></i>Inloggen</a>
+      </li>
+    </ul>
+
+    <nav>
+      <label for="sorting">Sorteren op</label>
+      <select name="sorting" id="sorting">
+        <option>Leesduur</option>
+        <option>Populairiteit</option>
+        <option>Leesniveau</option>
+      </select>
+    </nav>
+
+  </header>
+
+  <form action="index.html">
 
     <h1>Registreren</h1>
 
@@ -40,6 +61,9 @@
 
       <label for="password">Wachtwoord</label>
       <input type="password" name="password" id="password" placeholder="Wachtwoord">
+
+      <label for="password">Herhaal wachtwoord</label>
+      <input type="password" name="repeat-password" id="repeat-password" placeholder="Wachtwoord">
 
     </fieldset>
 

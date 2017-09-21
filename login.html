@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DFDS Website</title>
 
@@ -12,22 +12,51 @@
 </head>
 <body>
 
-  <form action="login.php">
+  <header>
 
-    <h1>Inloggen</h1>
+    <a href="index.html"><img src="images/dfdslogo.jpg" alt="DFDS logo" /></a>
 
-      <label for="username">Gebruikersnaam</label>
-      <input type="text" name="username" id="username" placeholder="Gebruikersnaam">
+    <ul>
+      <li>
+        <a href="login.html"><i class="fa fa-lock" aria-hidden="true"></i>Inloggen</a>
+      </li>
+    </ul>
 
-      <label for="password">Wachtwoord</label>
-      <input type="password" name="password" id="password" placeholder="Wachtwoord">
+    <nav>
+      <label for="sorting">Sorteren op</label>
+      <select name="sorting" id="sorting">
+        <option>Leesduur</option>
+        <option>Populairiteit</option>
+        <option>Leesniveau</option>
+      </select>
+    </nav>
 
-      <label for="rememberme">Onthoud mij</label>
-      <input type="checkbox" name="rememberme" id=rememberme>
+  </header>
 
-      <button type="submit">Inloggen</button>
+  <main>
 
-  </form>
+    <form action="index.html">
+
+      <h1>Inloggen</h1>
+
+        <label for="username">Gebruikersnaam</label>
+        <input type="text" name="username" id="username" placeholder="Gebruikersnaam">
+
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password" id="password" placeholder="Wachtwoord">
+
+        <input type="checkbox" name="rememberme" id=rememberme>
+        <label for="rememberme">Onthoud mijn gegevens</label>
+
+
+        <button type="submit">Inloggen</button>
+
+        <span>Nog geen account? <a href="register.html">Registreer een account</a></span>
+
+    </form>
+
+  </main>
+
 
 </body>
 </html>

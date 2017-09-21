@@ -15,6 +15,327 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
+	"\/fonts\/dfds\/dfds-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-light-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-light-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-light-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-light-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/dfds\/dfds-light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/dfds\/dfds-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/dfds\/dfds-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fonts-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fonts-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fonts.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fonts-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/icons\/font-awesome\/_animated.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_animated.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_bordered-pulled.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_bordered-pulled.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_fixed-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_fixed-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_larger.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_larger.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_path.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_path.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_rotated-flipped.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_rotated-flipped.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_screen-reader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_screen-reader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_stacked.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/font-awesome\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/icons\/font-awesome\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/icons\/font-awesome\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/font-awesome\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/icons\/font-awesome\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/icons\/font-awesome\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/icons\/font-awesome\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/icons\/font-awesome\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/icons\/icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/icons\/icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/images\/article-header-img.jpg": {
+		"ft": 16384,
+		"iS": 11899,
+		"oA": 0,
+		"oAP": "\/images\/article-header-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/dfdslogo.jpg": {
+		"ft": 16384,
+		"iS": 3321,
+		"oA": 0,
+		"oAP": "\/images\/dfdslogo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
