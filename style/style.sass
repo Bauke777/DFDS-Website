@@ -1,12 +1,11 @@
-// Fonts
-@import '../fonts/fonts.css'
+// FONTS
+@import '../assets/fonts/fonts.css'
 
-// Icons
-@import '../icons/icons'
+// COLORS
+$background: rgb(234, 237, 238)
+$header-item-border: rgb(194, 194, 194)
 
-// Colors
 $white: #fff
-$light-gray: #eaedee
 $gray: #6d6f71
 $dark-gray: rgb(60, 60, 60)
 $black: rgb(0, 0, 0)
@@ -27,8 +26,8 @@ $semi-transparant: rgba(0, 0, 0, .2)
    box-sizing: border-box
 
 body
-   background-color: $light-gray
-   font: 1em / 1.5em 'Open Sans', sans-serif
+   background-color: $background
+   font: 1em / 150% 'Open Sans', sans-serif
    font-style: normal
    font-weight: 300
 
@@ -53,29 +52,64 @@ h6
 // Header styling
 header
    background-color: $white
-   text-align: center
+   box-shadow: 0 2px 4px 0 rgba($black, .15)
+   position: fixed
+   width: 100%
 
-   img
-      margin: 1.5em 2em
-
-   // Toolbar menu
    ul
-      position: absolute
-      right: 2em
-      top: 1.6em
+      display: flex
+      height: 50px
+      line-height: 50px
+
+      img
+         height: 1.5em
+         width: auto
 
       li
-         display: inline-block
-         padding: 1em
+         list-style: none
+         font-family: 'DFDS-Bold'
+         font-size: 1.3125em
+         color: $dark-blue
 
-         i
-            margin-right: .2em
 
-   // Navigation & Filters
-   nav
-      border-top: calc(1em/16) solid $light-gray
-      padding: 1.5em 2em
-      position: relative
+         &:first-of-type
+            margin-right: auto
+
+            a
+               height: 50px
+               width: auto
+               display: inline-block
+
+               img
+                  height: 50px
+                  width: auto
+                  padding: 13px
+
+         &:nth-of-type(1n+2)
+            border-left: 1px solid $header-item-border
+            text-align: center
+
+            a
+               height: 50px
+               width: auto
+               display: flex
+
+               &:hover
+                  background-color: darken($white, 5%)
+                  transition: .1s all ease-in
+
+            span
+               display: none
+
+
+            img
+               height: 50px
+               width: 50px
+               padding: 13px
+
+
+
+
 
 // Main styling
 main
@@ -85,7 +119,9 @@ main
    justify-content: space-between
    margin: auto
    padding: 1em 0
-   width: 80vw
+   width: 100%
+   position: absolute
+   top: 50px
 
 article
    background-color: $white
@@ -188,26 +224,42 @@ legend
 
 // Media queries
 
-// Tablet
-@media only screen and (max-width: 75em)
-   article
-      width: 30%
+// Tablet (landscape & portrait)
+@media only screen and (min-width: 48em)
 
-// Tablet
-@media only screen and (max-width: 60em)
-   article
-      width: 46%
-
-// Mobile
-@media only screen and (max-width: 30em)
+   // Header
    header
-      img
-         margin: .5em 1em
-         height: 2em
 
       ul
-         right: 0
-         top: 0
+         line-height: 4.125rem
+         height: 4.125rem
 
-   article
-      width: 100%
+         li
+
+            &:first-of-type
+
+               a
+
+                  img
+                     height: 4.125rem
+                     padding: 0.9375rem
+
+            &:nth-of-type(1n+2)
+
+               a
+                  height: 4.125rem
+
+               img
+                  height: 4.125rem
+                  width: 4.125rem
+                  padding: 21px
+
+            &:last-of-type
+
+               span
+                  display: inherit
+                  margin: auto 25px auto 0
+
+
+// Tablet
+//@media only screen and (max-width: 60em)
