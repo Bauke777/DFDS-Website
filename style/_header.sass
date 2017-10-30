@@ -2,7 +2,9 @@ header
    background-color: $white
    box-shadow: 0 2px 4px 0 rgba($black, .15)
    position: fixed
+   top: 0
    width: 100%
+   z-index: 20
 
    ul
       display: flex
@@ -15,7 +17,7 @@ header
 
       li
          list-style: none
-         font-family: 'DFDS-Bold'
+         font-family: 'DFDS Bold'
          font-size: 1.3125em
          color: $dark-blue
 
@@ -28,7 +30,8 @@ header
                width: auto
                display: inline-block
 
-               img
+               img,
+               svg
                   height: 50px
                   width: auto
                   padding: 13px
@@ -50,7 +53,8 @@ header
                display: none
 
 
-            img
+            img,
+            svg
                height: 50px
                width: 50px
                padding: 13px

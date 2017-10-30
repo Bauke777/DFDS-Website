@@ -1,0 +1,107 @@
+form
+
+   input
+
+      &[type='text'],
+      &[type='password'],
+      &[type='username'],
+      &[type='email'],
+      &[type='date']
+         width: 100%
+         display: inline-block
+         font-family: 'DFDS Light'
+         font-size: 1rem
+         padding: 5px 0
+         color: lighten($dark-gray, 8%)
+         border: 0
+         border-bottom: 1px solid $light-gray
+         margin-bottom: 24px
+
+         &:focus
+            outline: none
+            border-bottom: 1px solid $orange
+
+      &[type='button'],
+      &[type='submit']
+         background-color: $orange
+         display: block
+         border: 0
+         font: 1.125rem/1.5em 'DFDS Light'
+         color: $white
+         padding: 6.5px 55px
+         transition: background-color .2s ease
+         cursor: pointer
+
+         &:hover
+            background-color: darken($orange, 5%)
+
+      &[type='checkbox']
+         margin-right: 10px
+         margin-bottom: 24px
+
+   label
+      font-family: 'DFDS Bold'
+      color: lighten($dark-gray, 8%)
+      text-transform: uppercase
+
+      &.checkbox
+         font: .875rem/1.5em 'DFDS Light'
+         color: lighten($dark-gray, 8%)
+         text-transform: none
+
+   p
+      font: .875rem/1.5em 'DFDS Light'
+      color: lighten($dark-gray, 8%)
+      margin-bottom: 24px
+
+   a
+      text-decoration: none
+      border-bottom: 1px solid $orange
+      color: inherit
+      font-weight: inherit
+
+// Inputs & Labels
+// input
+//    display: inline-block
+//    border: solid .0625rem
+//    font: 1rem 'Open Sans'
+//    font-weight: 300
+//    padding: .75rem .5rem
+//    border-radius: .375rem
+//    margin-bottom: 1rem
+//    letter-spacing: .075rem
+//    color: $gray
+//
+// button
+//    font: 1rem 'DFDS bold'
+//    text-transform: uppercase
+//    padding: .75rem .5rem
+//    border-radius: .375rem
+//    border: 0
+//    letter-spacing: .075rem
+//    cursor: pointer
+//
+//    &[type='button'],
+//    &[type='submit']
+//       color: $white
+//       background: $orange
+//       margin-bottom: 1rem
+//
+//       &:hover
+//          background: $dark-orange
+//
+// label
+//    font: .75rem / 150% 'DFDS light'
+//    color: $gray
+//
+// fieldset
+//    padding: .2rem .5rem
+//    border-radius: .375rem
+//    border: solid .0625rem $gray
+//    margin-bottom: 1.5rem
+//
+// legend
+//    color: $dark-gray
+//    font: .875rem / 150% 'DFDS bold'
+//    text-transform: uppercase
+//    padding: 0 .5rem

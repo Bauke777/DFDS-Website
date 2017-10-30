@@ -1,0 +1,91 @@
+// Night Mode Colors
+$nightmode-black: rgb(32, 21, 9)
+$nightmode-gray: rgb(43, 35, 30)
+$nightmode-light-gray: rgb(185, 185, 185)
+
+// Transition
+$duration: 500ms
+$cubic-bezier: linear
+
+body.transition
+   transition: background $duration $cubic-bezier
+
+   header
+      transition: background $duration $cubic-bezier
+
+      ul
+
+         li
+
+            .svg
+
+               g[fill="#002B45"]
+                  transition: fill $duration $cubic-bezier
+
+               path[stroke="#002B45"],
+               circle[stroke="#002B45"],
+                  transition: stroke $duration $cubic-bezier
+
+            span
+               transition: color $duration $cubic-bezier
+
+            &:nth-of-type(1n+2)
+               transition: border $duration $cubic-bezier
+
+   main
+
+      ul
+
+         li
+            transition: color $duration $cubic-bezier
+
+      article
+         transition: color $duration $cubic-bezier
+
+         > img
+            transition: filter $duration $cubic-bezier 500ms
+
+
+// Nightmode styling
+body.nightmode
+   background-color: $nightmode-black
+
+   header
+      background-color: $nightmode-gray
+
+      ul
+
+         li
+
+            .svg
+
+               g[fill="#002B45"]
+                  fill: $nightmode-light-gray
+
+               path[stroke="#002B45"],
+               circle[stroke="#002B45"],
+                  stroke: $nightmode-light-gray
+
+            span
+               color: $nightmode-light-gray
+
+            &:nth-of-type(1n+2)
+               border-left: 1px solid $black
+
+               a
+
+                  &:hover
+                     background-color: lighten($nightmode-gray, 5%)
+
+   main
+
+      ul
+
+         li
+            color: $nightmode-light-gray
+
+      article
+         color: $nightmode-light-gray
+
+         > img
+            filter: brightness(60%)

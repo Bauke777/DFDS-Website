@@ -1,0 +1,129 @@
+body
+
+   main
+      filter: blur(0)
+      transition: filter 1s ease
+
+   #login_layover
+      display: none
+      background-color: rgba($dark-blue, .0)
+      transition: background-color 1s ease
+
+      > div
+         transform: scale(0)
+         transition: transform 5s ease
+
+
+   &.login
+
+      main
+         filter: blur(.3125rem)
+
+      #login_layover
+         background-color: rgba($dark-blue, .15)
+         display: flex
+         position: fixed
+         top: 3.125rem
+         height: calc(100vh - 3.125rem)
+         width: 100%
+         z-index: 15
+
+         form
+            display: none
+
+            &.active
+               display: block
+
+         > div
+            transform: scale(1)
+            display: flex
+            width: 100vw
+
+            > div
+               padding: 30px
+               width: 100%
+
+               &:first-of-type
+                  display: none
+
+               &:last-of-type
+                  background-color: $white
+                  display: flex
+                  flex-direction: column
+                  padding: 12px
+
+                  h2
+                     display: inline
+                     font: 1.75rem/1.5em 'DFDS light'
+                     font-weight: 200
+                     color: rgba($dark-gray, .5)
+                     padding-bottom: 4px
+
+                     &.active
+                        color: $dark-gray
+                        border-bottom: 2px solid $orange
+
+                  span
+                     color: lighten($dark-gray, 10.1%)
+                     margin: 0 20px
+
+// Tablet (landscape & portrait)
+@media only screen and (min-width: 48rem)
+
+   body
+
+      &.login
+
+         #login_layover
+            top: 4.125rem
+            height: calc(100vh - 4.125rem
+
+            > div
+               width: 55vw
+               margin: auto
+
+               > div
+                  height: 33.75rem
+
+                  &:last-of-type
+                     padding: 30px
+
+// Desktop
+@media only screen and (min-width: 64em)
+   body
+
+      &.login
+
+         #login_layover
+
+            > div
+               width: 70vw
+               min-width: 60rem
+
+               > div
+                  width: 50%
+
+                  &:first-of-type
+                     display: block
+                     background-image: url('../assets/images/overlay-background.jpg')
+                     background-size: cover
+                     color: $white
+
+                     svg
+
+                        #Header
+                           fill: $white
+
+                        #Verhalen,
+                        #Rectangle
+                           display: none
+
+                     p
+                        margin-top: 30%
+                        font-family: 'DFDS Light'
+                        font-size: 21px
+                        line-height: 39px
+                        text-align: center
+
+                  &:last-of-type
+                     padding: 60px

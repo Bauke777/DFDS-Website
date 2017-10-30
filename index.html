@@ -6,9 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DFDS Website</title>
 
+  <!-- fonts -->
+  <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+  <!-- //fonts -->
+
   <!-- stylesheets -->
   <link rel="stylesheet" type="text/css" href="style/style.css" />
   <!-- //stylesheets -->
+
 </head>
 <body>
 
@@ -16,10 +22,10 @@
 
     <nav>
       <ul>
-        <li><a href="index.html"><img src="assets/images/logo.svg" alt="DFDS logo"></a></li>
-        <li><a href="#"><img src="assets/images/light.svg" alt="download"><span>Nachtmodus</span></a></li>
-        <li><a href="downloads.html"><img src="assets/images/book.svg" alt="download"><span>Leeslijst</span></a></li>
-        <li><a href="login.html"><img src="assets/images/profile.svg" alt="profile"><span>Inloggen</span></a></li>
+        <li><a href="index.html"><img src="assets/images/logo.svg" class="svg" alt="DFDS logo"></a></li>
+        <li><a href="#" id="nightmode"><img src="assets/images/light.svg" class="svg" alt="download"><span>Nachtmodus</span></a></li>
+        <li><a href="#"><img src="assets/images/book.svg" class="svg" alt="download"><span>Leeslijst</span></a></li>
+        <li><a href="#" id="login"><img src="assets/images/profile.svg" class="svg" alt="profile"><span>Inloggen</span></a></li>
       </ul>
     </nav>
 
@@ -27,43 +33,120 @@
 
   <main>
 
-    <article>
-      <img src="images/article-header-img.jpg" alt="article header img" />
-      <h1><a href="">In de sauna</a></h1>
-      <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
-      <footer>
-        <span>Geplaatst op 27 augustus 2017 door Klaas Knooihuizen</span>
-      </footer>
-    </article>
+    <ul>
+      <li class="active">Alle verhalen</li>
+      <li>Populair</li>
+      <li>Korte verhalen</li>
+      <li>Lange verhalen</li>
+    </ul>
 
-    <article>
-      <img src="images/article-header-img.jpg" alt="article header img" />
-      <h1><a href="">In de sauna</a></h1>
-      <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
-      <footer>
-        <span>Geplaatst op 27 augustus 2017 door Klaas Knooihuizen</span>
-      </footer>
-    </article>
+    <div>
 
-    <article>
-      <img src="images/article-header-img.jpg" alt="article header img" />
-      <h1><a href="">In de sauna</a></h1>
-      <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
-      <footer>
-        <span>Geplaatst op 27 augustus 2017 door Klaas Knooihuizen</span>
-      </footer>
-    </article>
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />2 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />75 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
 
-    <article>
-      <img src="images/article-header-img.jpg" alt="article header img" />
-      <h1><a href="">In de sauna</a></h1>
-      <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
-      <footer>
-        <span>Geplaatst op 27 augustus 2017 door Klaas Knooihuizen</span>
-      </footer>
-    </article>
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />3 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />2 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
+
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />4 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />7 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
+
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />5 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />19 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
+
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />6 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />52 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
+
+      <article>
+        <div>
+          <h1><a href="">In de sauna</a></h1>
+          <div>
+            <span><img src="assets/images/time.svg" alt="time icon" />18 min</span>
+            <span><img src="assets/images/heart.svg" alt="time icon" />68 keer</span>
+          </div>
+          <p>Op haar verjaardag had ik B beloofd om met haar naar de sauna te gaan. Het idee was onder grote druk ontstaan...</p>
+        </div>
+        <img src="assets/images/article-img.png" alt="article img">
+      </article>
+
+    </div>
 
   </main>
 
+  <div id="login_layover">
+    <div>
+      <div>
+        <img src="assets/images/logo.svg" class="svg" alt="DFDS logo">
+        <p>Neem de verhalen van DFDS met je mee op reis, en lees ze onderweg op al je devices.</p>
+      </div>
+      <div>
+        <div>
+          <h2 class="active">Inloggen</h2><span>of</span><h2>Registreren</h2>
+        </div>
+        <form class="active">
+          <label>E-mailadres<input type="email" placeholder="Vul hier je email in"></label>
+          <label>Wachtwoord<input type="password" placeholder="Wachtwoord"></label>
+          <p>Ik ben mijn <a href="#">wachtwoord vergeten</a></p>
+          <input type="submit" value="Inloggen">
+        </form>
+        <form>
+          <label>Naam<input type="text" placeholder="Vul hier je naam in"></label>
+          <label>E-mailadres<input type="email" placeholder="Vul hier je email in"></label>
+          <label>Wachtwoord<input type="password" placeholder="Wachtwoord"></label>
+          <label class="checkbox"><input type="checkbox">Ik ga akkoord met de <a href="#">voorwaarden</a></label>
+          <input type="submit" value="Registreren">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/scripts/app-min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/scripts/replaceSVG-min.js"></script>
 </body>
 </html>

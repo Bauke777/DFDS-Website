@@ -1,127 +1,120 @@
-// Imports
-@import '../assets/fonts/fonts.css'
-
 // Stylesheet parts
 @import 'colors'
 @import 'general'
 @import 'header'
+@import 'forms'
+// Add all stylesheet parts here
+@import 'login-layover'
+@import 'nightmode'
 
 
 // Main styling
 main
-   display: flex
-   flex-direction: row
-   flex-wrap: wrap
-   justify-content: space-between
-   margin: auto
-   padding: 1em 0
-   width: 100%
    position: absolute
    top: 50px
+   padding: 0 12px
+   width: 100vw
 
-article
-   background-color: $white
-   filter: drop-shadow(.0625em .0625em .0625em $semi-transparant)
-   width: 23%
-   overflow: hidden
-   position: relative
-   margin: 1em 0
+   // Filters
+   > ul
+      margin: 20px 0
+      display: flex
+      justify-content: space-between
 
-   img
-      object-fit: cover
+      li
+         height: 1.375rem
+         display: inline
+         font-family: 'DFDS Bold'
+         font-size: .875em
+         text-transform: uppercase
+         color: $dark-blue
+         cursor: pointer
+         margin: 0 .9375rem
+
+         &:first-of-type
+            margin-left: 0
+
+         &:last-of-type
+            margin-right: 0
+
+         &.active
+            border-bottom: 3px solid $orange
+
+   // Articles
+   > div
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-between
+
+   article
+      background-color: $white
       width: 100%
-      height: 10em
+      height: 400px
+      margin-bottom: 20px
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20)
+      color: white
+      position: relative
 
-   h1
+      &.hide
+         animation-name: disappear
+         animation-duration: 500ms
+         animation-fill-mode: forwards
 
-      &:first-of-type
-         padding: 1rem 1rem .2rem
+      &.hidden
+         display: none
 
-   p
-      padding: 0 1rem
+      > div
+         position: absolute
+         height: inherit
+         width: inherit
+         padding: 15px 12px
+         background-image: linear-gradient(-180deg, rgba(255,255,255,0.25) 15%, rgba(49,105,139,0.00) 33%, rgba(0,43,69,0.80) 89%)
+         display: flex
+         flex-direction: column
+         z-index: 10
 
-   footer
-      margin: 1rem
-      font-size: .7rem
-      text-transform: uppercase
-      font-family: 'DFDS Light'
-      color: $blue
+         div
+            display: flex
+            margin-top: auto
 
-// Forms
-form
-   filter: drop-shadow(.125em .125em .125em $semi-transparant)
-   background-color: $white
-   width: 50%
-   margin: 3em auto
-   padding: 1em
-   color: $gray
+            span
+               width: 50%
 
-   h1
-      padding: 0 0 .75em
+               &:last-of-type
+                  text-align: right
 
-   input
+      > img
+         height: inherit
+         width: inherit
+         object-fit: cover
 
-      &[type='text'],
-      &[type='password'],
-      &[type='username'],
-      &[type='date']
-         width: 100%
-         height: 2.8125em
+// Annimations
+@keyframes disappear
+   0%
+      opacity: 1
+      transform: scale(1)
 
-   button
-      width: 100%
+   50%
+      opacity: .5
+      transform: scale(.5)
 
-// Inputs & Labels
-input
-   display: inline-block
-   border: solid .0625em $gray
-   font: 1em 'Open Sans'
-   font-weight: 300
-   padding: .75em .5em
-   border-radius: .375em
-   margin-bottom: 1em
-   letter-spacing: .075em
-   color: $gray
-
-button
-   font: 1em 'DFDS bold'
-   text-transform: uppercase
-   padding: .75em .5em
-   border-radius: .375em
-   border: 0
-   letter-spacing: .075em
-   cursor: pointer
-
-   &[type='button'],
-   &[type='submit']
-      color: $white
-      background: $orange
-      margin-bottom: 1em
-
-      &:hover
-         background: $dark-orange
-
-label
-   font: .75em / 150% 'DFDS light'
-   color: $gray
-
-fieldset
-   padding: .2em .5em
-   border-radius: .375em
-   border: solid .0625em $gray
-   margin-bottom: 1.5em
-
-legend
-   color: $dark-gray
-   font: .875em / 150% 'DFDS bold'
-   text-transform: uppercase
-   padding: 0 .5em
-
+   100%
+      opacity: 0
+      transform: scale(0)
 
 // Media queries
 
+// Mobile (landscpae)
+@media only screen and (min-width: 320px) and (orientation: landscape)
+
+   main
+
+      > ul
+         justify-content: flex-start
+
 // Tablet (landscape & portrait)
-@media only screen and (min-width: 48em)
+@media only screen and (min-width: 48rem)
 
    // Header
    header
@@ -136,16 +129,18 @@ legend
 
                a
 
-                  img
+                  img,
+                  svg
                      height: 4.125rem
-                     padding: 0.9375rem
+                     padding: .9375rem
 
             &:nth-of-type(1n+2)
 
                a
                   height: 4.125rem
 
-               img
+               img,
+               svg
                   height: 4.125rem
                   width: 4.125rem
                   padding: 21px
@@ -156,6 +151,32 @@ legend
                   display: inherit
                   margin: auto 25px auto 0
 
+   // Main
+   main
+      top: 4.125rem
+
+      > ul
+         justify-content: flex-start
+
+      > div
+         overflow-x: scroll
+         flex-wrap: nowrap
+         justify-content: flex-start
+
+      article
+         height: 540px
+         width: 425px
+         margin-right: 20px
+
+
+
+
 
 // Tablet
-//@media only screen and (max-width: 60em)
+@media only screen and (min-width: 64em)
+
+   // Main
+   main
+
+      article
+         margin-right: 40px
