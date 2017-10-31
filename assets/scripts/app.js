@@ -54,26 +54,10 @@ loginLayover.addEventListener('click', function(event){
 
 // Login & Register tabs
 var login = document.querySelector("#login_layover h2:first-of-type");
-var loginForm = document.querySelector("#login_layover form:first-of-type");
 var register = document.querySelector("#login_layover h2:last-of-type");
-var registerForm = document.querySelector("#login_layover form:last-of-type");
 
-function switchTab() {
-  if (login.classList.contains("active")) {
-    login.classList.remove("active");
-    loginForm.classList.remove("active");
-    register.classList.add("active");
-    registerForm.classList.add("active");
-  } else if (register.classList.contains("active")) {
-    register.classList.remove("active");
-    registerForm.classList.remove("active");
-    login.classList.add("active");
-    loginForm.classList.add("active");
-  }
-}
-
-login.addEventListener("click", switchTab);
-register.addEventListener("click", switchTab);
+login.addEventListener("click", function(){loginLayover.classList.replace("register", "login");});
+register.addEventListener("click", function(){loginLayover.classList.replace("login", "register");});
 
 
 
@@ -136,7 +120,7 @@ function filterArticles() {
     for (var i = 0 ; i < articles.length; i++) {
       var readTime = articles[i].querySelector("div div span:first-of-type").textContent.split(" ")[0];
 
-      if ( readTime > 3) {
+      if ( readTime > 5) {
         articles[i].classList.add("hide");
 
         // Fisically hide elements after animation

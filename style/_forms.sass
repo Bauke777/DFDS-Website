@@ -1,53 +1,59 @@
-form
 
-   input
 
-      &[type='text'],
-      &[type='password'],
-      &[type='username'],
-      &[type='email'],
-      &[type='date']
-         width: 100%
-         display: inline-block
-         font-family: 'DFDS Light'
-         font-size: 1rem
-         padding: 5px 0
-         color: lighten($dark-gray, 8%)
-         border: 0
-         border-bottom: 1px solid $light-gray
-         margin-bottom: 24px
+input
 
-         &:focus
-            outline: none
-            border-bottom: 1px solid $orange
-
-      &[type='button'],
-      &[type='submit']
-         background-color: $orange
-         display: block
-         border: 0
-         font: 1.125rem/1.5em 'DFDS Light'
-         color: $white
-         padding: 6.5px 55px
-         transition: background-color .2s ease
-         cursor: pointer
-
-         &:hover
-            background-color: darken($orange, 5%)
-
-      &[type='checkbox']
-         margin-right: 10px
-         margin-bottom: 24px
-
-   label
-      font-family: 'DFDS Bold'
+   &[type='text'],
+   &[type='password'],
+   &[type='username'],
+   &[type='email'],
+   &[type='date']
+      width: 100%
+      display: inline-block
+      font-family: 'DFDS Light'
+      font-size: 1rem
+      padding: 5px 0
       color: lighten($dark-gray, 8%)
-      text-transform: uppercase
+      border: 0
+      border-bottom: 1px solid $light-gray
+      margin-bottom: 24px
 
-      &.checkbox
-         font: .875rem/1.5em 'DFDS Light'
-         color: lighten($dark-gray, 8%)
-         text-transform: none
+      &:focus
+         outline: none
+         border-bottom: 1px solid $orange
+
+   &[type='button'],
+   &[type='submit']
+      background-color: $orange
+      display: block
+      border: 0
+      border-radius: 0
+      font: 1.125rem/1.5em 'DFDS Light'
+      color: $white
+      padding: 6.5px 55px
+      transition: background-color .2s ease
+      cursor: pointer
+      appearance: none
+      -moz-appearance: none
+      -webkit-appearance: none
+
+      &:hover
+         background-color: darken($orange, 5%)
+
+   &[type='checkbox']
+      margin-right: 10px
+      margin-bottom: 24px
+
+label
+   font-family: 'DFDS Bold'
+   color: lighten($dark-gray, 8%)
+   text-transform: uppercase
+
+   &.checkbox
+      font: .875rem/1.5em 'DFDS Light'
+      color: lighten($dark-gray, 8%)
+      text-transform: none
+
+form
 
    p
       font: .875rem/1.5em 'DFDS Light'

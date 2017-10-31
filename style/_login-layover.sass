@@ -11,7 +11,7 @@ body
 
       > div
          transform: scale(0)
-         transition: transform 5s ease
+         transition: transform .2s ease
 
 
    &.login
@@ -31,8 +31,34 @@ body
          form
             display: none
 
-            &.active
-               display: block
+         &.login
+            form
+               &:first-of-type
+                  display: block
+                  margin-top: 80px
+
+                  input[type="submit"]
+                     margin-top: 80px
+
+            h2
+               &:first-of-type
+                  color: $dark-gray
+                  border-bottom: 2px solid $orange
+
+
+         &.register
+            form
+               &:last-of-type
+                  display: block
+                  margin-top: 29px
+
+                  input[type="submit"]
+                     margin-top: 29px
+
+            h2
+               &:last-of-type
+                  color: $dark-gray
+                  border-bottom: 2px solid $orange
 
          > div
             transform: scale(1)
@@ -59,10 +85,6 @@ body
                      color: rgba($dark-gray, .5)
                      padding-bottom: 4px
 
-                     &.active
-                        color: $dark-gray
-                        border-bottom: 2px solid $orange
-
                   span
                      color: lighten($dark-gray, 10.1%)
                      margin: 0 20px
@@ -86,7 +108,7 @@ body
                   height: 33.75rem
 
                   &:last-of-type
-                     padding: 30px
+                     padding: 60px
 
 // Desktop
 @media only screen and (min-width: 64em)
@@ -124,6 +146,3 @@ body
                         font-size: 21px
                         line-height: 39px
                         text-align: center
-
-                  &:last-of-type
-                     padding: 60px

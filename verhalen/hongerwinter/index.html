@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DFDS | Hongerwinter</title>
+
+  <!-- fonts -->
+  <link rel="stylesheet" type="text/css" href="../../assets/fonts/fonts.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+  <!-- //fonts -->
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../../style/style.css" />
+  <!-- //stylesheets -->
+
+</head>
+<body class="verhaal">
+
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html"><img src="../../assets/images/logo.svg" class="svg" alt="DFDS logo"></a></li>
+        <li><a href="#" id="nightmode"><img src="../../assets/images/light.svg" class="svg" alt="download"><span>Nachtmodus</span></a></li>
+        <li><a href="#"><img src="../../assets/images/book.svg" class="svg" alt="download"><span>Leeslijst</span></a></li>
+        <li><a href="#" id="login"><img src="../../assets/images/profile.svg" class="svg" alt="profile"><span>Inloggen</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="verhaal">
+    <ul>
+      <li><a href="../../"><img src="../../assets/images/arrow.svg" class="svg" alt="arrow"><span>Naar de verhalen</span></a></li>
+      <li><a href="../../" id="saveButton"><img src="../../assets/images/bookmark.svg" class="svg" alt="bookmark"><span>Bookmark</span></a></li>
+      <li><a href="../../" id="likeButton"><img src="../../assets/images/like.svg" class="svg" alt="like"><span>Waardeer</span></a></li>
+    </ul>
+    <img src="desktop.png" id="desktop" alt="verhaal desktop">
+    <img src="tablet.png" id="tablet" alt="verhaal tablet">
+    <img src="mobiel.png" id="mobiel" alt="verhaal mobiel">
+  </main>
+
+  <div id="login_layover" class="login">
+    <div>
+      <div>
+        <img src="../../assets/images/logo.svg" class="svg" alt="DFDS logo">
+        <p>Neem de verhalen van DFDS met je mee op reis, en lees ze onderweg op al je devices.</p>
+      </div>
+      <div>
+        <div>
+          <h2>Inloggen</h2><span>of</span><h2>Registreren</h2>
+        </div>
+        <form>
+          <label>E-mailadres<input type="email" placeholder="Vul hier je email in"></label>
+          <label>Wachtwoord<input type="password" placeholder="Wachtwoord"></label>
+          <p>Ik ben mijn <a href="#">wachtwoord vergeten</a></p>
+          <input type="submit" value="Inloggen">
+        </form>
+        <form>
+          <label>Naam<input type="text" placeholder="Vul hier je naam in"></label>
+          <label>E-mailadres<input type="email" placeholder="Vul hier je email in"></label>
+          <label>Wachtwoord<input type="password" placeholder="Wachtwoord"></label>
+          <label class="checkbox"><input type="checkbox">Ik ga akkoord met de <a href="#">voorwaarden</a></label>
+          <input type="submit" value="Registreren">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../assets/scripts/articles-min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../../assets/scripts/replaceSVG-min.js"></script>
+</body>
+</html>

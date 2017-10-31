@@ -1,0 +1,86 @@
+main
+
+   &.verhaal
+      padding: 0
+
+      img
+         width: 100%
+
+      ul
+         position: absolute
+         margin-left: .75rem
+
+         li
+            background-color: $white
+            box-shadow: 0 .125rem .25rem 0 rgba($black, .2)
+            padding: .3125rem .625rem
+            height: auto
+            padding: 0
+            margin-right: .5rem
+
+            &:hover
+               background-color: darken($white, 5%)
+
+            a
+               display: flex
+               line-height: 1.625rem
+
+               svg
+                  height: 1rem
+                  margin: .375rem 0 .375rem .375rem
+
+               span
+                  line-height: 29px
+                  margin: 0 0.5rem
+                  text-transform: none
+
+               &.saved
+                  background: $green
+                  color: $white
+
+                  [stroke='#002B45']
+                        stroke: $white
+
+               &.liked
+                  background: $red
+                  color: $white
+
+                  [stroke='#002B45']
+                        stroke: $white
+
+
+
+#mobiel
+   display: inherit
+
+#tablet
+   display: none
+
+#desktop
+   display: none
+
+// Media queries
+
+// Mobile (landscpae)
+@media only screen and (min-width: 32em)
+
+   #mobiel
+      display: none
+
+   #tablet
+      display: inherit
+
+   #desktop
+      display: none
+
+// Tablet
+@media only screen and (min-width: 48em)
+
+   #mobiel
+      display: none
+
+   #tablet
+      display: none
+
+   #desktop
+      display: inherit

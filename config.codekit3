@@ -316,6 +316,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/images\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/article-img.png": {
 		"ft": 32768,
 		"iS": 484064,
@@ -337,6 +347,48 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/bookmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/bookmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/bookmarks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/bookmarks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/cold.png": {
+		"ft": 32768,
+		"iS": 149949,
+		"oA": 0,
+		"oAP": "\/assets\/images\/cold.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/dark.png": {
+		"ft": 32768,
+		"iS": 345172,
+		"oA": 0,
+		"oAP": "\/assets\/images\/dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/download.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -346,6 +398,27 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/download2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/download2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/girl-with-flower.png": {
+		"ft": 32768,
+		"iS": 401705,
+		"oA": 0,
+		"oAP": "\/assets\/images\/girl-with-flower.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/heart.svg": {
 		"ft": 2097152,
@@ -357,11 +430,32 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/kind.png": {
+		"ft": 32768,
+		"iS": 393945,
+		"oA": 0,
+		"oAP": "\/assets\/images\/kind.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/light.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/images\/light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/like.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/like.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -376,6 +470,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/neerslachtig.png": {
+		"ft": 32768,
+		"iS": 736386,
+		"oA": 0,
+		"oAP": "\/assets\/images\/neerslachtig.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/overlay-background.jpg": {
 		"ft": 16384,
@@ -396,6 +501,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/sport.png": {
+		"ft": 32768,
+		"iS": 274622,
+		"oA": 0,
+		"oAP": "\/assets\/images\/sport.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/time.svg": {
 		"ft": 2097152,
@@ -424,6 +540,26 @@
 		"oA": 0,
 		"oAP": "\/assets\/scripts\/app-min.js",
 		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scripts\/articles-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts\/articles-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scripts\/articles.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts\/articles-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -537,6 +673,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/style\/_verhalen.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/style\/_verhalen.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/style\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -559,6 +708,156 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/verhalen\/hongerwinter\/Desktop.png": {
+		"ft": 32768,
+		"iS": 4301863,
+		"oA": 0,
+		"oAP": "\/verhalen\/hongerwinter\/Desktop.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/hongerwinter\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/verhalen\/hongerwinter\/index.html",
+		"oF": 0
+		},
+	"\/verhalen\/hongerwinter\/Mobiel.png": {
+		"ft": 32768,
+		"iS": 538247,
+		"oA": 0,
+		"oAP": "\/verhalen\/hongerwinter\/Mobiel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/hongerwinter\/Tablet.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/verhalen\/hongerwinter\/Tablet.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/hongerwinter\/thumbnail.png": {
+		"ft": 32768,
+		"iS": 1104008,
+		"oA": 0,
+		"oAP": "\/verhalen\/hongerwinter\/thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/iphone\/desktop.png": {
+		"ft": 32768,
+		"iS": 362011,
+		"oA": 0,
+		"oAP": "\/verhalen\/iphone\/desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/iphone\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/verhalen\/iphone\/index.html",
+		"oF": 0
+		},
+	"\/verhalen\/iphone\/mobiel.png": {
+		"ft": 32768,
+		"iS": 337423,
+		"oA": 0,
+		"oAP": "\/verhalen\/iphone\/mobiel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/iphone\/tablet.png": {
+		"ft": 32768,
+		"iS": 998390,
+		"oA": 0,
+		"oAP": "\/verhalen\/iphone\/tablet.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/iphone\/thumbnail.png": {
+		"ft": 32768,
+		"iS": 173798,
+		"oA": 0,
+		"oAP": "\/verhalen\/iphone\/thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/jezus\/desktop.png": {
+		"ft": 32768,
+		"iS": 666920,
+		"oA": 0,
+		"oAP": "\/verhalen\/jezus\/desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/jezus\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/verhalen\/jezus\/index.html",
+		"oF": 0
+		},
+	"\/verhalen\/jezus\/mobiel.png": {
+		"ft": 32768,
+		"iS": 422310,
+		"oA": 0,
+		"oAP": "\/verhalen\/jezus\/mobiel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/jezus\/tablet.png": {
+		"ft": 32768,
+		"iS": 455864,
+		"oA": 0,
+		"oAP": "\/verhalen\/jezus\/tablet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/verhalen\/jezus\/thumbnail.png": {
+		"ft": 32768,
+		"iS": 171560,
+		"oA": 0,
+		"oAP": "\/verhalen\/jezus\/thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [

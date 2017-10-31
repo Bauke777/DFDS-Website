@@ -3,7 +3,8 @@
 @import 'general'
 @import 'header'
 @import 'forms'
-// Add all stylesheet parts here
+@import 'verhalen'
+
 @import 'login-layover'
 @import 'nightmode'
 
@@ -19,7 +20,7 @@ main
    > ul
       margin: 20px 0
       display: flex
-      justify-content: space-between
+      flex-wrap: wrap
 
       li
          height: 1.375rem
@@ -29,10 +30,7 @@ main
          text-transform: uppercase
          color: $dark-blue
          cursor: pointer
-         margin: 0 .9375rem
-
-         &:first-of-type
-            margin-left: 0
+         margin: 0 1.6rem .5rem 0
 
          &:last-of-type
             margin-right: 0
@@ -52,14 +50,17 @@ main
       width: 100%
       height: 400px
       margin-bottom: 20px
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20)
-      color: white
+      box-shadow: 0 2px 4px 0 rgba($black, .2)
+      color: $white
       position: relative
+      font: 600 1rem / 150% 'Open Sans'
 
       &.hide
-         animation-name: disappear
-         animation-duration: 500ms
-         animation-fill-mode: forwards
+         display: none
+      //    animation-name: disappear
+      //    animation-duration: 500ms
+      //    animation-fill-mode: forwards
+
 
       &.hidden
          display: none
@@ -69,10 +70,17 @@ main
          height: inherit
          width: inherit
          padding: 15px 12px
-         background-image: linear-gradient(-180deg, rgba(255,255,255,0.25) 15%, rgba(49,105,139,0.00) 33%, rgba(0,43,69,0.80) 89%)
+         background-image: linear-gradient(-180deg, rgba($white, .25) 15%, rgba(49,105,139,0.00) 33%, rgba(0,43,69,0.80) 89%)
          display: flex
          flex-direction: column
          z-index: 10
+
+         a
+            display: block
+            height: 100%
+
+         h1
+            color: $dark-blue
 
          div
             display: flex
@@ -107,11 +115,7 @@ main
 
 // Mobile (landscpae)
 @media only screen and (min-width: 320px) and (orientation: landscape)
-
-   main
-
-      > ul
-         justify-content: flex-start
+   //
 
 // Tablet (landscape & portrait)
 @media only screen and (min-width: 48rem)
@@ -154,9 +158,6 @@ main
    // Main
    main
       top: 4.125rem
-
-      > ul
-         justify-content: flex-start
 
       > div
          overflow-x: scroll
